@@ -8,25 +8,25 @@ namespace Library
     /// 参数类型为object的委托类型
     /// </summary>
     /// <param name="objPara"></param>
-    public delegate void InputObjDelType(object objPara);
+    public delegate void InputObjDelegate(object objPara);
 
     /// <summary>
     /// 参数类型为string的委托类型
     /// </summary>
     /// <param name="strPara"></param>
-    public delegate void InputStrDelType(string strPara);
+    public delegate void InputStrDelegate(string strPara);
 
     /// <summary>
     /// 参数类型为int的委托类型
     /// </summary>
     /// <param name="intPara"></param>
-    public delegate void InputIntDelType(int intPara);
+    public delegate void InputIntDelegate(int intPara);
 
     /// <summary>
     /// 返回类型为object的委托类型
     /// </summary>
     /// <returns></returns>
-    public delegate object OutputObjDelType();
+    public delegate object OutputObjDelegate();
 
     public class MyPrint
     {
