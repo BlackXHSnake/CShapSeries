@@ -57,6 +57,7 @@ namespace DelegateConsole
             #region 异步调用
             //AsyncCallback参数传入回调方法(委托)
             //object参数传入回调State参数，回调方法中使用IAsyncResult参数类型的AsyncState属性获取
+            //后台线程
             IAsyncResult asyncResult = delInStrInvoke.BeginInvoke
             (
                 "参数",
@@ -65,7 +66,7 @@ namespace DelegateConsole
                     Console.WriteLine(p.AsyncState);
                 },
                 "回调State参数"
-            );//后台线程
+            );
 
             while (!asyncResult.IsCompleted) { };//IsCompleted判断操作是否完成
             asyncResult.AsyncWaitHandle.WaitOne();//阻塞等待操作完成
