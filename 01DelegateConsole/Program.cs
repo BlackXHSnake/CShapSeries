@@ -150,14 +150,6 @@ namespace DelegateConsole
             InputStrDelegate delInStrIn = MyPrint.StaticPrintObj;
             #endregion
 
-            #region 挖坑
-            InputObjDelegate a = MyPrint.StaticPrintObj;
-            InputStrDelegate b = MyPrint.StaticPrintStr;
-            InputIntDelegate c = MyPrint.StaticPrintInt;
-
-            InputStrDelegate d = MyPrint.StaticPrintObj;
-            #endregion
-
             Console.ReadKey();
         }
     }
