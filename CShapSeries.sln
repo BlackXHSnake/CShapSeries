@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01DelegateConsole", "01DelegateConsole\01DelegateConsole.csproj", "{3CE3F5FD-CF4D-44E3-942E-ADFD8DE40D7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02EventConsole", "02EventConsole\02EventConsole.csproj", "{59442A0C-5776-4AB0-BF75-304E33439CEC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03EventConsole", "03EventConsole\03EventConsole.csproj", "{59442A0C-5776-4AB0-BF75-304E33439CEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
