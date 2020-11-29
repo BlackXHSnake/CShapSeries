@@ -76,5 +76,16 @@ namespace Library
             Console.WriteLine("泛型方法<TPara,TResult>：" + para);
             return default(TResult);//TResult默认值
         }
+
+        /// <summary>
+        /// 泛型方法(装箱)
+        /// </summary>
+        /// <typeparam name="TPara"></typeparam>
+        /// <param name="para"></param>
+        /// <returns></returns>
+        public object GenericsBoxMethod<TPara>(TPara para)
+        {
+            return (object)para;
+        }
     }
 }
