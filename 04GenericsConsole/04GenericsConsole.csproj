@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>_04GenericsConsole</RootNamespace>
+    <RootNamespace>GenericsConsole</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
