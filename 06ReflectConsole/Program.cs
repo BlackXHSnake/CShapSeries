@@ -3,7 +3,7 @@ using System.Reflection;
 using System.Runtime.Remoting;
 using Library;
 
-namespace AttributeConsole
+namespace ReflectConsole
 {
     class Program
     {
