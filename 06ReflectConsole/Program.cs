@@ -77,7 +77,8 @@ namespace ReflectConsole
             #endregion
 
             #region 获取泛型信息
-            MethodInfo genericMethodInfo = genericType.GetMethod("GenericsFunction", 1, Type.EmptyTypes);//获取泛型方法
+            //获取无参泛型方法
+            MethodInfo genericMethodInfo = genericType.GetMethod("GenericsFunction", 1, Type.EmptyTypes);
 
             //获取泛型参数方法
             Type genericTypePara = Type.MakeGenericMethodParameter(0);//创建泛型参数
